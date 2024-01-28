@@ -53,7 +53,7 @@ Ensure you obtain the necessary API keys and credentials for the following servi
 - Stripe for payment processing.
 
 ## Examples
-Visit [https://store-concept.vercel.app](https://store-concept.vercel.app) to see a live example of the application.
+Visit [https://store-concept-three.vercel.app](https://store-concept-three.vercel.app/) to see a live example of the application.
 
 ## Contributors
 This project is developed and maintained by [AmazeDeus].
