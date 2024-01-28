@@ -1,5 +1,5 @@
 
-# Food Order
+# Web-Store-Concept
 
 ## Introduction
 "Web-Store-Concept" is a business website designed to connect customers with active deals and enable easy online ordering. It's tailored for a seamless experience in viewing deals and placing food orders.
@@ -53,7 +53,7 @@ Ensure you obtain the necessary API keys and credentials for the following servi
 - Stripe for payment processing.
 
 ## Examples
-Visit [https://store-concept.vercel.app](https://store-concept.vercel.app) to see a live example of the application.
+Visit [https://store-concept-three.vercel.app](https://store-concept-three.vercel.app/) to see a live example of the application.
 
 ## Contributors
 This project is developed and maintained by [AmazeDeus].
