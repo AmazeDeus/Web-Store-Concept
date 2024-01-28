@@ -30,7 +30,6 @@ To set up "Web-Store-Concept" locally, follow these steps:
    - `STRIPE_SK`
    - `STRIPE_SIGN_SECRET`
 4. Ensure you have the necessary keys and credentials for Cloudinary, Stripe services, and MongoDB if using for example Mongo Atlas.
-5. To make your first User that you created an admin, you have to go to your database manually and select the userinfos collection. From there set their 'admin' property to 'true'. After that, this admin, and future admins, can assign the admin role to other users from the user edit page directly.
 
 ## Usage
 After installing the project, start the development server with:
@@ -40,6 +39,8 @@ npm run dev
 ```
 
 This will run the application in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+To make your first User that you created an admin, you have to go to your database manually and select the userinfos collection. From there set their 'admin' property to 'true'. After that, this admin, and future admins, can assign the admin role to other users from the user edit page directly.
 
 ## Features
 - **Order Food**: Browse and order from a variety of food options.
