@@ -1,11 +1,12 @@
 // Importing necessary modules from mongoose
+import { StreetAddress } from "@/app/types/User";
 import { model, models, Schema, Document, Model } from "mongoose";
 
 // Defining an interface for the order document
 interface IOrder extends Document {
   userEmail?: string;
   phone?: string;
-  streetAddress?: string;
+  streetAddress: StreetAddress;
   postalCode?: string;
   city?: string;
   country?: string;
@@ -18,7 +19,14 @@ const OrderSchema: Schema<IOrder> = new Schema(
   {
     userEmail: String,
     phone: String,
-    streetAddress: String,
+    streetAddress: {
+      type: new Schema({
+        streetName: String,
+        houseNumber: String,
+        stairwell: String,
+        apartment: String,
+      }),
+    },
     postalCode: String,
     city: String,
     country: String,
