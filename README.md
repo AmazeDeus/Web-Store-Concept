@@ -1,5 +1,5 @@
 
-# Food Order
+# Web-Store-Concept
 
 ## Introduction
 "Web-Store-Concept" is a business website designed to connect customers with active deals and enable easy online ordering. It's tailored for a seamless experience in viewing deals and placing food orders.
