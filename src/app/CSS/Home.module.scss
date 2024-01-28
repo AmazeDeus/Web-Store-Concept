@@ -1,0 +1,26 @@
+.about {
+  float: left;
+  shape-outside: url("/avatar.png");
+  shape-margin: 0.5rem;
+  display: flow-root;
+  margin-top: 1rem;
+}
+
+.about > * {
+  transform: scaleX(-1);
+  margin-left: 0;
+  margin-right: auto;
+}
+
+@media (max-width: 835px) {
+  .about {
+    background-position: right;
+    transform: none;
+  }
+}
+
+@media (max-width: 835px) {
+  .about > * {
+    transform: none;
+  }
+}
