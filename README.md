@@ -23,7 +23,7 @@ Ensure you obtain the necessary API keys and credentials by creating accounts fo
 ## Installation
 To set up "Web-Store-Concept" locally, follow these steps...
 
-1. Clone the repository to your local machine.
+1. Clone the repository to your local machine. (`git clone https://github.com/AmazeDeus/Web-Store-Concept.git`)
 2. Install the necessary dependencies by running `npm install` in the project directory.
 3. Configure your environment variables in a `.env` file inside the root directory. This file should include the following keys:
    - `NEXTAUTH_URL` (local setup: http://localhost:3000/)
