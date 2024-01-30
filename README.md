@@ -62,7 +62,7 @@ To integrate Stripe for payment processing in Test Mode, follow these steps:
 6. **Configure Webhook for Local Testing**:
    - Be sure your development server is up and running: `npm run dev`
    - Install the Stripe CLI using one of the approaches shown here: https://stripe.com/docs/stripe-cli
-   - In the Dashboard, access 'webhooks' and set up a local listener.
+   - In the Dashboard, access 'webhooks' and choose 'Add local listener' to see how to listen to events in a local environment.
    - Run `stripe login` in any command-line interface, such as Powershell.
    - Run the `stripe listen --forward-to localhost:3000/api/webhook` command (make sure to listen on the correct port: 3000). This will generate the webhook signing secret you use for local testing. This starts with 'whsec_'.
    - In your local environment, set this as an environment variable:
