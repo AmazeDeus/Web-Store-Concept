@@ -58,7 +58,7 @@ Ensure you obtain the necessary API keys and credentials for the following servi
 Visit [https://store-concept-three.vercel.app](https://store-concept-three.vercel.app/) to see a live example of the application.
 
 ## Known Issues
-Orders are currently showing up as 'not paid' on the admin page, after the order has been completed using Stripe.
+There are no known issues as of now.
 
 ## Contributors
 This project is developed and maintained by [AmazeDeus].
