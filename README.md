@@ -5,11 +5,11 @@
 "Web-Store-Concept" is a business website designed to connect customers with active deals and enable easy online ordering. It's tailored for a seamless experience in viewing deals and placing food orders.
 
 ## Table of Contents
-1. [Installation](#installation)
-2. [Usage](#usage)
-3. [Features](#features)
-4. [Configuration](#configuration)
+1. [Configuration](#configuration)
+2. [Installation](#installation)
+3. [Usage](#usage)
    - [Stripe Setup](#stripe-setup)
+4. [Features](#features)
 5. [Examples](#examples)
 6. [Contributors](#contributors)
 7. [License](#license)
